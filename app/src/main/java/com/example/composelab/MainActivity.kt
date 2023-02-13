@@ -7,8 +7,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.text.KeyboardActions
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -49,6 +47,7 @@ fun TipScreen()
          tip = "KES" + num.times(0.15).toString()
 //        Toast.makeText( tip, Toast.LENGTH_LONG)
 //            .show()
+
 
 
     }
